@@ -19,6 +19,8 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
+OPENAI_API_KEY = st.secrets['OPENAI_API_KEY']
+
 init_pw_log_config()
 
 DRIVE_URL = os.environ.get(

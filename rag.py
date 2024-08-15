@@ -12,7 +12,7 @@ from pathway.xpacks.llm.vector_store import VectorStoreClient
 
 load_dotenv()
 
-
+OPENAI_API_KEY = st.secrets['OPENAI_API_KEY']
 
 Traceloop.init(app_name=os.environ.get("APP_NAME", "PW - LlamaIndex (Streamlit)"))
 

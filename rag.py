@@ -13,6 +13,7 @@ from pathway.xpacks.llm.vector_store import VectorStoreClient
 load_dotenv()
 
 
+
 Traceloop.init(app_name=os.environ.get("APP_NAME", "PW - LlamaIndex (Streamlit)"))
 
 DEFAULT_PATHWAY_HOST = "demo-document-indexing.pathway.stream"
